@@ -8,6 +8,11 @@ Original countdown is set to 90 seconds.
 <img src="tianagram.gif" width="400"/>
 
 ## Try it yourself
+<br>
+<b>Web link (repl.it):</b> https://repl.it/@AthiyaDeviyani/tiAnagram
+<br>
+<b>... or you like breaking things 👇🏻 </b>
+
 ```
 $ git clone https://github.com/athiyadeviyani/tiAnagram.git
 $ cd tianagram
