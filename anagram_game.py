@@ -7,6 +7,9 @@ from tkinter.ttk import Progressbar
 from tkinter import filedialog
 from tkinter import Menu
 
+import nltk 
+nltk.download('brown')
+
 word_list = brown.words()
 word_list = [x for x in word_list if x.isalpha()]
 six_letters = [w.lower() for w in word_list if len(w) == 6]
