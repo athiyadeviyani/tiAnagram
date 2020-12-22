@@ -84,16 +84,16 @@ window.configure(bg='white')
 
 final = []
 
-blank1 = Label(window, text = "SPACE", fg='white', font = ("Arial Bold",20))
+blank1 = Label(window, text = "SPACE", bg='white', fg='white', font = ("Arial Bold",20))
 blank1.grid(column = 0, row = 1)
 
-letter_container = Label(window, text = "Here are your letters: " + letters, font = ("Arial Bold",20))
+letter_container = Label(window, text = "Here are your letters: " + letters, bg='white', fg='black', font = ("Arial Bold",20))
 letter_container.grid(column = 0, row = 3)
 
 # letter_container.configure(text="Here are your letters: " + letters)
 print(all_words)
 s = "There is a total of " + str(len(all_words)) + " words that you can form."
-word_count = Label(window, text = s, font = ("Arial",20))
+word_count = Label(window, text = s, bg='white', fg='black', font = ("Arial",20))
 word_count.grid(column = 0, row = 4)
 
 # get input using entry class
@@ -103,13 +103,13 @@ txt.grid(column = 0, row = 5)
 txt.focus()
 
 
-btn = Button(window, text = "Submit", bg = "black", fg = "black", command = submit, font = ("Arial",20))
+btn = Button(window, text = "Submit", bg = "white", fg = "black", command = submit, font = ("Arial",20))
 btn.grid(column = 0, row = 6)
 
-warning = Label(window, text = "", font = ("Arial",20))
+warning = Label(window, text = "", bg='white', fg='black', font = ("Arial",20))
 warning.grid(column = 0, row = 7)
 
-res = Label(window, text = "", font = ("Arial",20))
+res = Label(window, text = "", bg='white', fg='black', font = ("Arial",20))
 res.grid(column = 0, row = 8)
 
 def countdown(count):
@@ -136,7 +136,7 @@ def countdown(count):
 
 
 
-cdown = Label(window, font=("Arial", 30))
+cdown = Label(window, bg='white', fg='black', font=("Arial", 30))
 cdown.grid(column = 0, row = 10)
 
 # call countdown first time    
