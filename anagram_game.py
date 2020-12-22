@@ -77,6 +77,7 @@ def submit():
 window = Tk()
 window.title("Welcome to TiAnagram!")
 window.geometry('430x450')
+window.configure(bg='white')
 
 final = []
 
