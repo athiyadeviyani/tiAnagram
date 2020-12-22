@@ -10,6 +10,7 @@ Original countdown is set to 90 seconds.
 ## Try it yourself
 ```
 $ git clone https://github.com/athiyadeviyani/tiAnagram.git
+$ cd tianagram
 $ pip install -r requirements.txt
 $ python anagram_game.py
 ```
