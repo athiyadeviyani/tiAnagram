@@ -16,7 +16,7 @@ Original countdown is set to 90 seconds.
 ```
 $ git clone https://github.com/athiyadeviyani/tiAnagram.git
 $ cd tianagram
-$ pip install -r requirements.txt
+$ pip install -r req.txt
 $ python anagram_game.py
 ```
 Don't forget to ⭐️ this repo if you like it!
